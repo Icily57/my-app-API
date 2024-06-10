@@ -15,6 +15,13 @@
       "when": 1717937107236,
       "tag": "0001_fair_pestilence",
       "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1718011130706,
+      "tag": "0002_watery_medusa",
+      "breakpoints": true
     }
   ]
 }

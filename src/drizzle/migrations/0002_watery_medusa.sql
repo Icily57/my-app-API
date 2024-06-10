@@ -1,0 +1,1 @@
+ALTER TABLE "restaurant" ALTER COLUMN "street_address" DROP NOT NULL;

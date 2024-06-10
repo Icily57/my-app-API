@@ -309,3 +309,24 @@ export type TSRestaurantOwner = typeof restaurantOwnerTable.$inferSelect;
 
 export type TIOrders = typeof ordersTable.$inferInsert;
 export type TSOrders = typeof ordersTable.$inferSelect;
+
+export type TICategory = typeof categoryTable.$inferInsert;
+export type TSCategory = typeof categoryTable.$inferSelect;
+
+export type TIComments = typeof commentsTable.$inferInsert;
+export type TSComments = typeof commentsTable.$inferSelect;
+
+export type TIDrivers = typeof driversTable.$inferInsert;
+export type TSDrivers = typeof driversTable.$inferSelect;
+
+export type TIMenuItems = typeof menuItemsTable.$inferInsert;
+export type TSMenusItems = typeof menuItemsTable.$inferSelect;
+
+export type TIOrderMenuItem = typeof orderMenuItemTable.$inferInsert;
+export type TSOrderMenuItem = typeof orderMenuItemTable.$inferSelect;
+
+export type TIOrdersStatus = typeof ordersStatusTable.$inferInsert;
+export type TSOrdersStatus = typeof ordersStatusTable.$inferSelect;
+
+export type TIStatusCatalog = typeof statusCatalogTable.$inferInsert;
+export type TSStatusCatalog = typeof statusCatalogTable.$inferSelect;
