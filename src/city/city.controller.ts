@@ -10,7 +10,8 @@ export const getAllCities = async (c:Context) => {
     } catch (error:any) {
         return c.text(error?.message, 500)
     }
-    }
+}
+
 
     export const getCityById = async (c:Context) => {
         try {
@@ -65,3 +66,4 @@ export const deleteCity = async (c:Context) => {
         return c.text(error?.message, 500)
     }
 }
+
